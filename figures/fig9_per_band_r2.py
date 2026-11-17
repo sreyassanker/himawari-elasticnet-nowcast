@@ -24,7 +24,7 @@ LEADS = [20, 30, 40, 50, 60, 70, 80, 90]
 DOMAINS = ['east_asia', 'australia', 'maritime']
 domain_labels = {'east_asia': 'East Asia (368 d)', 'australia': 'Australia (368 d)', 'maritime': 'Maritime (368 d)'}
 domain_colors = {'east_asia': '#377eb8', 'australia': '#ff7f00', 'maritime': '#4daf4a'}
-domain_styles = {'east_asia': '--', 'australia': ':', 'maritime': '-.'}
+domain_styles = {'east_asia': '--', 'australia': '-.', 'maritime': ':'}
 
 with open('results/validation_results.json') as f:
     vj = json.load(f)

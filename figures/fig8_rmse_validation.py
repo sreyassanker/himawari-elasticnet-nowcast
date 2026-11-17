@@ -20,9 +20,9 @@ plt.rcParams.update({
 
 BANDS = ['B08','B09','B10','B11','B12','B13','B14','B15','B16']
 LEADS = [20, 30, 40, 50, 60, 70, 80, 90]
-DOMAINS = ['east_asia', 'maritime', 'australia']
-domain_colors = {'east_asia': '#377eb8', 'maritime': '#4daf4a', 'australia': '#e41a1c'}
-domain_styles = {'east_asia': '--', 'maritime': '-.', 'australia': ':'}
+DOMAINS = ['east_asia', 'australia', 'maritime']
+domain_colors = {'east_asia': '#377eb8', 'australia': '#ff7f00', 'maritime': '#4daf4a'}
+domain_styles = {'east_asia': '--', 'australia': '-.', 'maritime': ':'}
 
 with open('results/validation_results.json') as f:
     vj = json.load(f)

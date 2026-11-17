@@ -1,0 +1,15 @@
+# Himawari-9 Elastic Net Brightness-Temperature Nowcasting — analysis pipeline
+# Python 3.10+
+#
+# Core data handling
+numpy>=1.26
+boto3>=1.28
+botocore>=1.31
+pyresample>=1.27        # geostationary projection for pixel sampling (pyproj-based)
+
+# Modeling & Baselines
+scikit-learn>=1.4       # LinearRegression / ElasticNet / Ridge reference implementations
+
+# Figures
+matplotlib>=3.8
+cartopy>=0.22          # study-area map (Fig. 1)

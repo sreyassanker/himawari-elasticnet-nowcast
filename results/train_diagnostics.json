@@ -1,0 +1,85 @@
+{
+  "model_type": "ElasticNet",
+  "l1_ratio": 0.85,
+  "r2_retention_threshold": 0.95,
+  "train_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "n_days": 373,
+  "n_times": 53712,
+  "n_pixels": 1000,
+  "train_dates_sample": [
+    "20230101",
+    "20241125",
+    "20261109"
+  ],
+  "leads": {
+    "20": {
+      "n_frames": 2,
+      "candidate_pairs": 53710000,
+      "valid_pairs": 50262299,
+      "masked_pairs": 3447701,
+      "cross_midnight_pairs": 372,
+      "cross_midnight_fraction": 7.401173591363181e-06
+    },
+    "30": {
+      "n_frames": 3,
+      "candidate_pairs": 53709000,
+      "valid_pairs": 50265667,
+      "masked_pairs": 3443333,
+      "cross_midnight_pairs": 744,
+      "cross_midnight_fraction": 1.4801355366477082e-05
+    },
+    "40": {
+      "n_frames": 4,
+      "candidate_pairs": 53708000,
+      "valid_pairs": 50265614,
+      "masked_pairs": 3442386,
+      "cross_midnight_pairs": 1116,
+      "cross_midnight_fraction": 2.2202056459511266e-05
+    },
+    "50": {
+      "n_frames": 5,
+      "candidate_pairs": 53707000,
+      "valid_pairs": 50250515,
+      "masked_pairs": 3456485,
+      "cross_midnight_pairs": 1488,
+      "cross_midnight_fraction": 2.961163681606049e-05
+    },
+    "60": {
+      "n_frames": 6,
+      "candidate_pairs": 53706000,
+      "valid_pairs": 50239286,
+      "masked_pairs": 3466714,
+      "cross_midnight_pairs": 1860,
+      "cross_midnight_fraction": 3.7022819153918706e-05
+    },
+    "70": {
+      "n_frames": 7,
+      "candidate_pairs": 53705000,
+      "valid_pairs": 50233358,
+      "masked_pairs": 3471642,
+      "cross_midnight_pairs": 2232,
+      "cross_midnight_fraction": 4.443262582604969e-05
+    },
+    "80": {
+      "n_frames": 8,
+      "candidate_pairs": 53704000,
+      "valid_pairs": 50233358,
+      "masked_pairs": 3470642,
+      "cross_midnight_pairs": 2604,
+      "cross_midnight_fraction": 5.1838063463724646e-05
+    },
+    "90": {
+      "n_frames": 9,
+      "candidate_pairs": 53703000,
+      "valid_pairs": 50231358,
+      "masked_pairs": 3471642,
+      "cross_midnight_pairs": 2976,
+      "cross_midnight_fraction": 5.92458599267812e-05
+    }
+  }
+}

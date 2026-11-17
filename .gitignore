@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# External tool cache / worktrees
+.kilo/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Large data files / arrays (keep results/*.json tracked)
+*.nc
+*.h5
+*.hdf5
+*.dat
+*.DAT
+*.npz
+*.pkl
